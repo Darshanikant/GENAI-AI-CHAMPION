@@ -3,7 +3,8 @@ import base64
 import streamlit as st
 import google.generativeai as genai
 from PIL import Image
-from dotenv import load_dotenvimport os
+from dotenv import load_dotenv
+import os
 import base64
 import streamlit as st
 import google.generativeai as genai
