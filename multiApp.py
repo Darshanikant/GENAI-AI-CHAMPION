@@ -102,7 +102,8 @@ def handle_text_input():
 
 # Function to generate response using Gemini API for Image-2-Text
 def handle_image_input(input_text, image):
-    model = genai.GenerativeModel('gemini-2.0-flash-exp',api_key='AIzaSyA8KpggPAGA9VRHIMebBEvsZOD5pgMDguk')
+    model = genai.GenerativeModel('gemini-2.0-flash-exp')
+    model.set_api_key(api_key)
     
     # Handle image and input text
     if input_text and image:
@@ -139,7 +140,8 @@ elif option == "💬 Text-2-Text Chat":
         st.session_state.chat_history = []
 
     # Initialize the model
-    model = genai.GenerativeModel('gemini-2.0-flash-exp',api_key='AIzaSyA8KpggPAGA9VRHIMebBEvsZOD5pgMDguk')
+    model = genai.GenerativeModel('gemini-2.0-flash-exp')
+    model.set_api_key(api_key)
 
     # Display chat history (above the input box)
     for chat in st.session_state.chat_history:
