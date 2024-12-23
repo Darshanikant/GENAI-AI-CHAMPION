@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set up Gemini API key from environment variable
-api_key = os.getenv("AIzaSyA8KpggPAGA9VRHIMebBEvsZOD5pgMDguk")
+api_key = os.getenv("your_api_key")
 
 # Function to encode the local image as base64
 def get_base64_of_image(image_path):
@@ -17,7 +17,7 @@ def get_base64_of_image(image_path):
         return base64.b64encode(image_file.read()).decode()
 
 # Encode your local image
-background_image_path = r"C:\Users\sunil\DK\vs code\GEMINI\background.jpg"
+background_image_path = 
 base64_image = get_base64_of_image(background_image_path)
 
 # Add custom CSS to make the UI visually appealing and add background image
