@@ -17,7 +17,7 @@ def get_base64_of_image(image_path):
         return base64.b64encode(image_file.read()).decode()
 
 # Encode your local image
-background_image_path = 
+background_image_path = "background.jpg"
 base64_image = get_base64_of_image(background_image_path)
 
 # Add custom CSS to make the UI visually appealing and add background image
