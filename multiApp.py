@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set up Gemini API key from environment variable
-api_key = os.getenv("your_api_key")
+api_key = os.getenv("AIzaSyA8KpggPAGA9VRHIMebBEvsZOD5pgMDguk")
 
 # Function to encode the local image as base64
 def get_base64_of_image(image_path):
