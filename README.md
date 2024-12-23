@@ -21,6 +21,14 @@
 - **Design**: Custom CSS for a polished and professional look.  
 - **Hosting**: Ready for deployment on any platform supporting Python and Streamlit.  
 
+## **App Sample** 
+ - Home page
+![Screenshot 2024-12-23 205905](https://github.com/user-attachments/assets/e62ee56d-c2b6-46d1-9793-b16763d59ff2)
+- Text-2-Text
+![Screenshot 2024-12-23 205924](https://github.com/user-attachments/assets/b7610a64-a9df-47d4-9dfd-1319bd32b04c)
+- Image-2-Text
+![Screenshot 2024-12-23 205940](https://github.com/user-attachments/assets/7ce18e27-5475-4ded-b114-9f6adf32d794)
+
 ## **Conclusion**  
 Gemini AI isn't just an app—it's a companion that empowers you to explore the limitless possibilities of Artificial Intelligence. Whether you're a student, a professional, or an AI enthusiast, Gemini AI is here to make your tasks smarter, faster, and more insightful. Dive into the future of AI-driven interactions and let Gemini AI transform the way you work and learn.  
 
